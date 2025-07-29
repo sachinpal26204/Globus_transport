@@ -188,7 +188,7 @@ export default function Header() {
                 className="company-name"
                 sx={{ color: "#ffcc00" }}
               >
-                Global Transport Company
+                {/* Global Transport Company */}
               </Typography>
             </Box>
 

@@ -6,7 +6,7 @@ export default function AboutSection() {
     <>
     
     
-     <ImageSlider />
+     {/* <ImageSlider /> */}
     <Box
       sx={{
         display: "flex",

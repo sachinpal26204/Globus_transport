@@ -5,6 +5,7 @@ import BuildCircleIcon from "@mui/icons-material/BuildCircle";
 import PlaylistAddCheckCircleIcon from "@mui/icons-material/PlaylistAddCheckCircle";
 import ViewInArIcon from "@mui/icons-material/ViewInAr";
 import ThumbUpAltIcon from "@mui/icons-material/ThumbUpAlt";
+import SupplierSection from "./Contact/Supplier";
 export default function HomeSection() {
   const features = [
     {
@@ -162,7 +163,7 @@ export default function HomeSection() {
             p: 3,
             borderRadius: "10px",
             // textAlign: "center",
-            maxWidth: "70%",
+            maxWidth: "90%",
             mx: "auto", 
           }}
         >
@@ -217,6 +218,8 @@ export default function HomeSection() {
           ))}
         </Grid>
       </Box>
+
+      <SupplierSection/>
     </>
   );
 }
